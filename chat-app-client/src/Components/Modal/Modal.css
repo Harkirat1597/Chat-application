@@ -1,0 +1,56 @@
+/* Custom Modal */
+.modal-overlay {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+    z-index: 20;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.modal-header {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 1rem;
+    border-top: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.modal-footer {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-80%, 90%);
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.modal-footer {
+    padding: 1rem;
+}
