@@ -2,3 +2,4 @@
 /Backend/.env
 /chat-app-client/node_modules
 /chat-app-client/src/env_Variables/variables.js 
+/chat-app-client/build
